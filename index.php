@@ -39,9 +39,5 @@
 
     <!-- Include scripts.html -->
     <?php include 'components/scripts.html'; ?>
-
-
-    
-
 </body>
 </html>
