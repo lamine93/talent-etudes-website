@@ -1,3 +1,27 @@
+## project structure
+
+project_root/
+├── components/
+│   ├── head.html
+│   ├── preloader.html
+│   ├── header.html
+│   ├── footer.html
+│   └── scripts.html
+|   └── back.html
+├── sections/
+│   ├── about.html
+│   ├── services.html
+│   ├── portfolio.html
+│   ├── pricing.html
+│   ├── testimonial.html
+│   └── contact.html
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+└── index.php
+
+
 ## configuring Contact Form
 
 open ​contact.php​ file from ​assets​ folder of template and configure mailer function and email
