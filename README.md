@@ -1,28 +1,29 @@
-## project structure
+### Directory Descriptions
 
-project_root/
-├── components/
-│   ├── head.html
-│   ├── preloader.html
-│   ├── header.html
-│   ├── footer.html
-│   └── scripts.html
-|   └── back.html
-├── sections/
-│   ├── about.html
-│   ├── services.html
-│   ├── portfolio.html
-│   ├── pricing.html
-│   ├── testimonial.html
-│   └── contact.html
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-└── index.php
+- **`components/`**: Contains reusable HTML component files.
+  - `head.html`: Contains common `<head>` tags.
+  - `preloader.html`: Code for the page preloader.
+  - `header.html`: Code for the site header.
+  - `footer.html`: Code for the footer.
+  - `scripts.html`: JavaScript files included in the page.
+  - `back.html`: Another reusable HTML component.
 
+- **`sections/`**: Contains various sections of the main page.
+  - `about.html`: "About" section.
+  - `services.html`: "Services" section.
+  - `portfolio.html`: "Portfolio" section.
+  - `pricing.html`: "Pricing" section.
+  - `testimonial.html`: "Testimonials" section.
+  - `contact.html`: "Contact" section.
 
-## configuring Contact Form
+- **`assets/`**: Contains project assets.
+  - `css/`: CSS stylesheets.
+  - `js/`: JavaScript files.
+  - `images/`: Images used in the project.
+
+- **`index.php`**: Main PHP file that includes various components and sections to generate the webpage.
+
+ ## configuring Contact Form
 
 open ​contact.php​ file from ​assets​ folder of template and configure mailer function and email
 address parameters to get it worked.
