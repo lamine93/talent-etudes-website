@@ -2226,3 +2226,53 @@ p {
       float: right; }
 
 /*# sourceMappingURL=style.css.map */
+
+.ctc_chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8c8416;
+  color: #ffffff;
+  padding: 0 12px;
+  border-radius: 25px;
+  font-size: 13px;
+  line-height: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  position: fixed; /* Bouton fixe */
+  bottom: 20px; /* Positionné à 20px du bas de la page */
+  right: 20px;  /* Positionné à 20px du bord droit */
+  z-index: 1000; /* Au-dessus des autres éléments */
+}
+
+.ctc_chip:hover {
+  background-color: #b3a50f;
+}
+
+.s4_img {
+  margin: 0 8px 0 -12px;
+  order: 0;
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+}
+
+.ctc_cta {
+  font-weight: bold;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.ctc_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8c8416;
+  color: #ffffff;
+  padding: 0 12px;
+  border-radius: 25px;
+  font-size: 13px;
+  line-height: 32px;
+  cursor: pointer;
+}
